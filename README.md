@@ -3,6 +3,13 @@ Telco Customer Churn – Exploratory Data Analysis (EDA)
 This project analyzes a telecommunications customer dataset to uncover patterns and drivers of customer churn.
 The goal is to identify who churns, why they churn, and which factors correlate with retention, providing actionable insights for business strategy and predictive modeling.
 
+🛠 Tools & Technologies
+- Programming & Analysis: Python, Jupyter Notebook
+- Data Manipulation & Visualization: Pandas, Seaborn, Matplotlib, Numpy
+- Data Exploration (Pre‑Analysis): Microsoft Excel
+- Documentation & Reporting: Microsoft Word (for PDF summary creation)
+
+
 📂 Dataset
 - Records: 7,043 customers
 - Features: 21 (categorical & numerical)

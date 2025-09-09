@@ -56,3 +56,7 @@ A suite of univariate and bivariate visualizations—including count plots, hist
 
 - Target senior customers  
   Provide tailored support, proactive outreach, and specially designed plans for senior segments.
+
+## Project File Structure
+Telco-Customer-Churn-EDA/ ├── Customer Churn.csv ├── Telco Customer Churn EDA.ipynb ├── Telco Customer Churn EDA Report.pdf ├── requirements.txt ├── README.md └── .gitignore
+

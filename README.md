@@ -1,55 +1,59 @@
-Telco Customer Churn – Exploratory Data Analysis (EDA)
-📌 Project Overview
-This project analyzes a telecommunications customer dataset to uncover patterns and drivers of customer churn.
-The goal is to identify who churns, why they churn, and which factors correlate with retention, providing actionable insights for business strategy and predictive modeling.
+Telco Customer Churn Analysis
+Executive Summary
+This project explores customer churn within a telecommunications provider’s dataset of 7,043 subscribers across 21 features. Through comprehensive exploratory data analysis (EDA), we identify key drivers of churn—such as month-to-month contracts, early tenure, and electronic check payments—and core retention factors like fixed-term agreements, long service duration, and bundled security/support offerings. Actionable insights guide targeted interventions to improve customer lifetime value and reduce attrition.
 
-🛠 Tools & Technologies
-- Programming & Analysis: Python, Jupyter Notebook
-- Data Manipulation & Visualization: Pandas, Seaborn, Matplotlib, Numpy
-- Data Exploration (Pre‑Analysis): Microsoft Excel
-- Documentation & Reporting: Microsoft Word (for PDF summary creation)
+Business Problem
+Telecom companies face significant revenue loss when customers cancel services. With a churn rate of 26.54%, understanding which segments are most at risk—and why—is critical to designing retention programs that minimize churn-related costs and maximize lifetime value.
 
-
-📂 Dataset
-- Records: 7,043 customers
-- Features: 21 (categorical & numerical)
-- Target: Churn (Yes/No)
-- Key Variables: Tenure, MonthlyCharges, TotalCharges, Contract type, Payment method, Service subscriptions, Demographics
-
-🔍 EDA Process
-- Data Cleaning & Preprocessing
-- Converted data types (e.g., TotalCharges to numeric)
-- Removed blanks and verified no missing values or duplicates
+Methodology
+- Data Ingestion and Inspection
+- Loaded 7,043 customer records with 21 attributes
+- Validated schema, data types, and sample entries
+- Data Cleaning and Preparation
+- Converted TotalCharges from object to float, replacing blanks with zero
+- Ensured SeniorCitizen is represented as an integer (0/1)
+- Confirmed no missing values or duplicate records
 - Descriptive Statistics
-- Summary of numerical and categorical features
-- Count plots, pie charts, histograms, stacked bar charts
-- Feature Relationships
-- Churn vs. demographics, tenure, contract type, services, payment method
+- Calculated central tendencies and distributions for tenure, MonthlyCharges, and TotalCharges
+- Univariate and Bivariate Visualizations
+- Count plots, pie charts, histograms, and stacked bar charts
+- Examined relationships between churn and demographics, contract type, service usage, and payment method
 
-📊 Key Insights
-- Churn Rate: 26.54% overall
-**- High-Risk Segments:**
-- Month-to-month contracts
-- Early tenure (0–3 months)
-- Electronic check payments
-- Senior citizens
-- Customers without OnlineSecurity/TechSupport
-**- Retention Drivers:**
-- Fixed-term contracts
-- Long tenure
-- Automatic payments
-- Value-added services (security/support)
+Skills
+- Python
+- Pandas for data manipulation
+- NumPy for numerical operations
+- Seaborn and Matplotlib for visualization
+- Jupyter Notebook for interactive analysis
+- Exploratory Data Analysis (EDA)
+- Data cleaning and type conversions
 
-💡 Business Recommendations
-- Incentivize fixed-term contracts
-- Strengthen onboarding in the first 90 days
-- Promote autopay enrollment
-- Bundle OnlineSecurity/TechSupport
-- Targeted retention programs for seniors
+Results
+- Overall churn rate: 26.54% (1,869 churners vs. 5,174 retained)
+- Demographics:
+- Gender has negligible effect on churn
+- Senior citizens churn at a 41.7% rate vs. 23.6% for non-seniors
+- Tenure:
+- Highest churn within first 3 months
+- Strong loyalty after 60+ months
+- Contract type:
+- Month-to-month contracts drive 88.6% of churners
+- One- and two-year terms show markedly lower attrition
+- Services and support:
+- OnlineSecurity and TechSupport reduce churn
+- Fiber optic users churn more than DSL customers
+- Payment behavior:
+- Electronic check users churn most frequently
+- Automatic payments (bank transfer, credit card) correlate with strong retention
 
-📈 Visualizations
-The analysis includes:
-- Churn distribution
-- Churn by tenure, contract type, payment method
-- Churn by service features and demographics
-
+Business Recommendations
+- Promote fixed-term contracts
+- Incentivize month-to-month customers to upgrade to one- or two-year plans
+- Strengthen early-stage engagement
+- Implement welcome flows, onboarding calls, and value-driven nudges during the first 90 days
+- Bundle retention-friendly services
+- Offer discounts on OnlineSecurity and TechSupport packages
+- Encourage automatic payments
+- Launch campaigns to move electronic check users to bank transfer or credit card billing
+- Target senior customers
+- Provide tailored support, proactive outreach, and specially designed plans for senior segments

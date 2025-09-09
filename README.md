@@ -4,7 +4,7 @@
 This project explores customer churn within a telecommunications provider’s dataset of 7,043 subscribers across 21 features. Through comprehensive exploratory data analysis (EDA), key drivers of churn—such as month-to-month contracts, early tenure, and electronic check payments—were identified, along with core retention factors like fixed-term agreements, long service duration, and bundled security/support offerings. Actionable insights guide targeted interventions to improve customer lifetime value and reduce attrition.
 
 ## Business Problem
-Telecom companies face significant revenue loss when customers cancel services. With a churn rate of 26.54%, understanding which segments are most at risk—and why—is critical to designing retention programs that minimize churn-related costs and maximize lifetime value.
+Telecom companies face significant revenue loss when customers cancel services. With a churn rate of 26.54%, understanding which segments are most at risk and why is critical to designing retention programs that minimize churn related costs and maximize lifetime value.
 
 ## Methodology
 The analysis began with ingestion of 7,043 customer records, followed by validation of data types and schema consistency. Key fields were cleaned by converting TotalCharges to float and encoding SeniorCitizen as an integer, ensuring no missing values or duplicates remained.
